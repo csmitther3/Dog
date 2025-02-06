@@ -11,7 +11,7 @@ public class DogTest
     public static void main(String[] args)
     {
 	Dog dog = new Dog("Spike");
-    Labrador lab = new Labrador("Doggy", "Red");
+   Labrador lab = new Labrador("Doggy", "Red"); // Object
         System.out.println(dog.getName() + " says " + dog.bark());
         //There is no waddle method in the dog or lab class
 
@@ -35,6 +35,7 @@ public class DogTest
         }
         for(Dog dog1 : dogs) {
             System.out.println(dog1.bark());
+
         }
 
 
