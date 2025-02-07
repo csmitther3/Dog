@@ -24,21 +24,20 @@ public class DogTest
         york.waddle();
 
 
-        Dog[] dogs = new Dog[3];
-        dogs[0] = new Dog("Caden");
-        dogs[1] = new Labrador("Parker", "Red");
-        dogs[2] = new Yorkshire("Greyson", 10);
+//        Dog[] dogs = new Dog[3];
+//        dogs[0] = new Dog("Caden");
+//        dogs[1] = new Labrador("Parker", "Red");
+//        dogs[2] = new Yorkshire("Greyson", 10);
 
-        for (int i = 0;i < dogs.length;i++){
-            System.out.println(dogs[i].bark());
+//        for (int i = 0;i < dogs.length;i++){
+//            System.out.println(dogs[i].bark());
+
+//        }
+//        for(Dog dog1 : dogs) {
+//            System.out.println(dog1.bark());
 
         }
-        for(Dog dog1 : dogs) {
-            System.out.println(dog1.bark());
-
-        }
-
-
+//        ((Labrador)dogs[1]).waddle();
 
 
 
